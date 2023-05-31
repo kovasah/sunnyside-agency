@@ -1,6 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+}
+
 header {
-  background-image: url("~/images/photos/header.jpg");
+  background-image: url("./images/photos/header.jpg");
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  display: flex;
+  gap: 3rem;
+}
+header nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container article {
+  display: flex;
+}
+
+.col {
+  width: 50%;
+}
+
+.container-image {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

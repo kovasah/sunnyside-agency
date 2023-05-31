@@ -2,7 +2,45 @@
 
 @import "variables";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
 
 header {
     background-image: url("./images/photos/header.jpg");
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    nav {
+        display: flex;
+        ul {
+            display: flex;
+            gap: 3rem;
+            li {
+                text-decoration: none;
+                list-style: none;
+            }
+        }
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    article {
+        display: flex;
+    }
+}
+
+.col {
+    width: 50%;
+}
+
+.container-image {
+    width: 50%;
 }
